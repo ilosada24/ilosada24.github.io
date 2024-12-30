@@ -1,0 +1,15 @@
+title: Mi Blog de Proyectos
+description: Un espacio para documentar y compartir mis proyectos.
+baseurl: ""  # Si no usas un subdirectorio, déjalo vacío
+url: "https://nombreusuario.github.io"
+theme: jekyll-theme-minimal  # Puedes elegir otro tema si lo prefieres
+
+# Personaliza las categorías, autor, etc.
+author:
+  name: "Tu Nombre"
+  bio: "Soy un desarrollador apasionado por la tecnología y el código abierto."
+
+# Permitir categorías
+collections:
+  posts:
+    output: true
