@@ -1,0 +1,13 @@
+{
+  "posts": [
+    {
+      "slug": "databricks-lakeflow-pipelines",
+      "title": "Lakeflow Spark Declarative Pipelines: your first declarative data pipeline, step by step",
+      "date": "2026-06-10",
+      "readingTime": "12 min",
+      "tags": ["databricks", "lakeflow", "pipelines"],
+      "excerpt": "Build a complete Bronze → Silver → Gold medallion pipeline with the new pipelines API, expectations included — fully runnable on Databricks Free Edition.",
+      "file": "posts/01-lakeflow-pipelines-databricks.md"
+    }
+  ]
+}
