@@ -149,7 +149,13 @@ section { position: relative; }
   transition: all .15s;
 }
 .btn-resume:hover { background: color-mix(in srgb, var(--accent) 16%, transparent); }
-.nav-burger { display: none; }
+.nav-burger {
+  display: none; width: 36px; height: 36px; place-items: center;
+  border: 1px solid var(--line); border-radius: var(--r-sm); background: var(--panel);
+  color: var(--text-2); cursor: pointer; transition: all .15s;
+}
+.nav-burger:hover { color: var(--text); border-color: var(--line-2); }
+.nav-burger svg { width: 18px; height: 18px; }
 
 /* ---------- Buttons ---------- */
 .btn {
@@ -394,6 +400,26 @@ section { position: relative; }
    RESPONSIVE
    ============================================================ */
 @media (max-width: 860px) {
+  /* nav collapses into a burger-driven dropdown panel */
+  .nav-burger { display: grid; }
+  .nav-actions { margin-left: auto; }
+  .nav-links {
+    position: absolute; top: 100%; left: 0; right: 0; margin-left: 0;
+    display: none; flex-direction: column; align-items: stretch; gap: 0;
+    padding: 6px 28px 14px;
+    background: var(--bg);
+    border-bottom: 1px solid var(--line);
+    box-shadow: 0 24px 40px -24px rgba(0,0,0,0.5);
+  }
+  .nav-links.open { display: flex; }
+  .nav-links .nl { display: block; padding: 13px 0; font-size: 15px; border-top: 1px solid var(--line); }
+  .nav-links .nl:first-child { border-top: 0; }
+
+  .hero h1 br, .contact h2 br { display: none; }
+  .hero h1 { letter-spacing: -1.5px; }
+  .hero-term pre { font-size: 12.5px; padding: 14px 16px; }
+
+  .sec-head { flex-wrap: wrap; }
   .feat-grid { grid-template-columns: 1fr; }
   .proj-grid { grid-template-columns: 1fr; }
   .about-grid { grid-template-columns: 1fr; }
@@ -402,10 +428,17 @@ section { position: relative; }
   .post-row { grid-template-columns: 1fr; gap: 8px; padding: 20px 14px; }
   .post-row .pdate { order: -1; }
   .post-row .pmeta { display: none; }
-  .nav-links .nl { display: none; }
+
+  .footer .wrap { flex-direction: column; align-items: flex-start; gap: 6px; }
+  .footer .made { margin-left: 0; }
 }
 @media (max-width: 560px) {
-  .wrap, .nav-in { padding-left: 18px; padding-right: 18px; }
+  .wrap, .nav-in, .nav-links { padding-left: 18px; padding-right: 18px; }
   .hero { padding: 60px 0 48px; }
+  .hero h1 { font-size: clamp(30px, 9vw, 40px); }
+  .hero .btns .btn { flex: 1 1 auto; justify-content: center; }
+  .contact h2 { letter-spacing: -1px; }
+  .contact-links { flex-direction: column; align-items: stretch; }
+  .contact-links a { justify-content: center; }
   .btn-resume { display: none; }
 }

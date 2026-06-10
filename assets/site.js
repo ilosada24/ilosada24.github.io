@@ -203,6 +203,16 @@ function buildTOC(root) {
 function initBurger() {
   const b = document.querySelector('.nav-burger');
   const links = document.querySelector('.nav-links');
-  if (b && links) b.addEventListener('click', () => links.classList.toggle('open'));
+  if (!b || !links) return;
+  b.addEventListener('click', () => {
+    const open = links.classList.toggle('open');
+    b.setAttribute('aria-expanded', String(open));
+  });
+  links.addEventListener('click', e => {
+    if (e.target.closest('a')) {
+      links.classList.remove('open');
+      b.setAttribute('aria-expanded', 'false');
+    }
+  });
 }
 document.addEventListener('DOMContentLoaded', initBurger);
