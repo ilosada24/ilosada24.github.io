@@ -8,6 +8,15 @@
       "tags": ["databricks", "lakeflow", "pipelines"],
       "excerpt": "Build a complete Bronze → Silver → Gold medallion pipeline with the new pipelines API, expectations included — fully runnable on Databricks Free Edition.",
       "file": "posts/01-lakeflow-pipelines-databricks.md"
+    },
+    {
+      "slug": "delta-lake-internals",
+      "title": "Delta Lake internals you can poke at: the transaction log, deletion vectors, liquid clustering and time travel",
+      "date": "2026-06-18",
+      "readingTime": "11 min",
+      "tags": ["databricks", "delta-lake", "certification"],
+      "excerpt": "One table, four internals: replay the transaction log, watch deletion vectors make DELETE instant, verify liquid clustering prunes files, and learn what VACUUM really destroys.",
+      "file": "posts/02-delta-lake-internals.md"
     }
   ]
 }
