@@ -130,15 +130,7 @@
 }
 .prose img.zoomable { cursor: zoom-in; }
 
-/* on wide screens, let images break out of the text column */
-@media (min-width: 1100px) {
-  .prose img {
-    width: min(100% + 160px, 90vw);
-    max-width: none;
-    margin-left: 50%;
-    transform: translateX(-50%);
-  }
-}
+.prose img { max-width: 100%; display: block; }
 
 /* fullscreen click-to-zoom overlay */
 .lightbox {
