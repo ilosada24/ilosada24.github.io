@@ -17,6 +17,15 @@
       "tags": ["databricks", "delta-lake", "certification"],
       "excerpt": "One table, four internals: replay the transaction log, watch deletion vectors make DELETE instant, verify liquid clustering prunes files, and learn what VACUUM really destroys.",
       "file": "posts/02-delta-lake-internals.md"
+    },
+    {
+      "slug": "unity-catalog-governance",
+      "title": "Fine-grained governance with Unity Catalog: row filters, column masks and dynamic views",
+      "date": "2026-06-26",
+      "readingTime": "10 min",
+      "tags": ["databricks", "unity-catalog", "governance", "certification"],
+      "excerpt": "Three mechanisms that look alike and behave very differently — built on a salary table you can lock down (and unlock) solo, on Databricks Free Edition.",
+      "file": "posts/03-unity-catalog-governance.md"
     }
   ]
 }

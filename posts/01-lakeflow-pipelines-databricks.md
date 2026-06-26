@@ -336,11 +336,4 @@ What we covered today:
 - How to use Unity Catalog Volumes to store the source data
 - How to follow the whole tutorial on **Databricks Free Edition**, at no cost
 
-This is just the entry point. Once you've got this down, the natural next steps are:
-
-- **Advanced incremental ingestion with Auto Loader**: automatically detect new files in the Volume without reprocessing the old ones
-- **CDC with `APPLY CHANGES INTO`**: sync tables from change streams (Kafka, Kinesis, etc.)
-- **Parameterization with pipeline configurations**: separate dev, staging, and prod without duplicating code
-- **Orchestration with Lakeflow Jobs**: chain pipelines together with other Databricks Jobs
-
 If you have questions or want to see any of these topics in more detail, feel free to reach out on LinkedIn.

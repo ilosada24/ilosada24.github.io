@@ -255,12 +255,4 @@ One table, four internals, all observed with plain SQL:
 - **Liquid clustering**: `CLUSTER BY` declared once, applied incrementally by `OPTIMIZE`, key changeable later — the modern replacement for Hive partitioning and Z-ordering. Drop a copy into a **Volume** and you can `LIST` the actual files and read their `_delta_log` stats to watch each city land in its own file.
 - **Time travel and VACUUM**: old versions are readable and restorable because files are dereferenced, not deleted — until `VACUUM` deletes anything outside the retention window.
 
-Every `operationMetrics` field you inspected here is fair game for the Professional exam, and now you've seen them generated live instead of in a slide.
-
-Natural follow-ups from here:
-
-- **Governance on top of these tables**: row filters, column masks and dynamic views with Unity Catalog — that's the next post in this series
-- **CDC with AUTO CDC**: now that you know what a MERGE commit looks like in the log, watch Lakeflow generate them for you
-- **OPTIMIZE scheduling and predictive optimization**: when to compact, and when to let Databricks decide
-
 If you have questions or want to see any of these topics in more detail, feel free to reach out on LinkedIn.
