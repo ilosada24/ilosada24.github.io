@@ -26,6 +26,15 @@
       "tags": ["databricks", "unity-catalog", "governance", "certification"],
       "excerpt": "Three mechanisms that look alike and behave very differently — built on a salary table you can lock down (and unlock) solo, on Databricks Free Edition.",
       "file": "posts/03-unity-catalog-governance.md"
+    },
+    {
+      "slug": "auto-loader-schema-evolution",
+      "title": "Auto Loader and schema evolution: bulletproof bronze ingestion",
+      "date": "2026-07-02",
+      "readingTime": "11 min",
+      "tags": ["databricks", "auto-loader", "streaming", "certification"],
+      "excerpt": "Trigger every failure mode on purpose — new columns, bad types, re-runs — and watch Auto Loader evolve, rescue and never lose a row, all on a UC Volume.",
+      "file": "posts/04-auto-loader-schema-evolution.md"
     }
   ]
 }
