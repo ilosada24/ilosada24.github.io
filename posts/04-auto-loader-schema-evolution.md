@@ -58,7 +58,7 @@ checkpoint = "/Volumes/tutorial/ventas/landing/_checkpoints/orders"
    .load(base)
  .writeStream
    .option("checkpointLocation", checkpoint)
-   .option("mergeSchema", "true")                        # let the TARGET table evolve too
+   .option("mergeSchema", "true")                        # let the TARGET table evolve too.
    .trigger(availableNow=True)                           # batch-style incremental run
    .toTable("tutorial.ventas.orders_bronze"))
 ```
