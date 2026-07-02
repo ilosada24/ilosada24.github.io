@@ -31,7 +31,7 @@
       "slug": "auto-loader-schema-evolution",
       "title": "Auto Loader and schema evolution: bulletproof bronze ingestion",
       "date": "2026-07-02",
-      "readingTime": "11 min",
+      "readingTime": "12 min",
       "tags": ["databricks", "auto-loader", "streaming", "certification"],
       "excerpt": "Trigger every failure mode on purpose — new columns, bad types, re-runs — and watch Auto Loader evolve, rescue and never lose a row, all on a UC Volume.",
       "file": "posts/04-auto-loader-schema-evolution.md"
