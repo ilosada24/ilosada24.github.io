@@ -35,6 +35,15 @@
       "tags": ["databricks", "auto-loader", "streaming", "certification"],
       "excerpt": "Trigger every failure mode on purpose — new columns, bad types, re-runs — and watch Auto Loader evolve, rescue and never lose a row, all on a UC Volume.",
       "file": "posts/04-auto-loader-schema-evolution.md"
+    },
+    {
+      "slug": "structured-streaming-semantics",
+      "title": "Structured Streaming for the Professional exam: watermarks, triggers and idempotent foreachBatch",
+      "date": "2026-07-10",
+      "readingTime": "12 min",
+      "tags": ["databricks", "streaming", "certification"],
+      "excerpt": "The streaming questions are about semantics, not APIs: what state Spark keeps, when late data dies silently, and how foreachBatch stays exactly-once — demoed with the rate source.",
+      "file": "posts/05-structured-streaming-semantics.md"
     }
   ]
 }
