@@ -39,7 +39,7 @@
     {
       "slug": "structured-streaming-semantics",
       "title": "Structured Streaming for the Professional exam: watermarks, triggers and idempotent foreachBatch",
-      "date": "2026-07-10",
+      "date": "2026-07-15",
       "readingTime": "12 min",
       "tags": ["databricks", "streaming", "certification"],
       "excerpt": "The streaming questions are about semantics, not APIs: what state Spark keeps, when late data dies silently, and how foreachBatch stays exactly-once — demoed with the rate source.",
