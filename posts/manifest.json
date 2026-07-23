@@ -53,6 +53,15 @@
       "tags": ["databricks", "lakeflow", "data-quality", "certification"],
       "excerpt": "The three escalation levels, the event log where metrics really live, the quarantine pattern with negated rules, and why expectations are not CHECK constraints.",
       "file": "posts/06-dlt-expectations-data-quality.md"
+    },
+    {
+      "slug": "asset-bundles-cicd",
+      "title": "From notebook chaos to CI/CD: Databricks Asset Bundles end to end",
+      "date": "2026-07-31",
+      "readingTime": "12 min",
+      "tags": ["databricks", "asset-bundles", "cicd", "certification"],
+      "excerpt": "Jobs and pipelines as YAML next to your code: targets, development vs production mode, deploy-time cross-references, and GitHub Actions in fifteen lines.",
+      "file": "posts/07-asset-bundles-cicd.md"
     }
   ]
 }
