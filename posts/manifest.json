@@ -44,6 +44,15 @@
       "tags": ["databricks", "streaming", "certification"],
       "excerpt": "The streaming questions are about semantics, not APIs: what state Spark keeps, when late data dies silently, and how foreachBatch stays exactly-once — demoed with the rate source.",
       "file": "posts/05-structured-streaming-semantics.md"
+    },
+    {
+      "slug": "lakeflow-expectations-data-quality",
+      "title": "Data quality as code: expectations in Lakeflow Declarative Pipelines",
+      "date": "2026-07-24",
+      "readingTime": "10 min",
+      "tags": ["databricks", "lakeflow", "data-quality", "certification"],
+      "excerpt": "The three escalation levels, the event log where metrics really live, the quarantine pattern with negated rules, and why expectations are not CHECK constraints.",
+      "file": "posts/06-dlt-expectations-data-quality.md"
     }
   ]
 }
