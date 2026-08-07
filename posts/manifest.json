@@ -62,6 +62,15 @@
       "tags": ["databricks", "asset-bundles", "cicd", "certification"],
       "excerpt": "Jobs and pipelines as YAML next to your code: targets, development vs production mode, deploy-time cross-references, and GitHub Actions in fifteen lines.",
       "file": "posts/07-asset-bundles-cicd.md"
+    },
+    {
+      "slug": "jobs-orchestration-patterns",
+      "title": "Orchestration patterns in Lakeflow Jobs: task values, conditionals, repair runs and file triggers",
+      "date": "2026-08-07",
+      "readingTime": "12 min",
+      "tags": ["databricks", "jobs", "orchestration", "certification"],
+      "excerpt": "How tasks communicate, how jobs branch, what a repair run reuses, and the file-arrival trigger that pairs with availableNow for quota-friendly ingestion.",
+      "file": "posts/08-jobs-orchestration-patterns.md"
     }
   ]
 }
