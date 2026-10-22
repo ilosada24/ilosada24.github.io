@@ -71,6 +71,15 @@
       "tags": ["databricks", "jobs", "orchestration", "certification"],
       "excerpt": "How tasks communicate, how jobs branch, what a repair run reuses, and the file-arrival trigger that pairs with availableNow for quota-friendly ingestion.",
       "file": "posts/08-jobs-orchestration-patterns.md"
+    },
+    {
+      "slug": "cdc-change-data-feed-auto-cdc",
+      "title": "Change data capture three ways: Change Data Feed, MERGE and AUTO CDC",
+      "date": "2026-10-22",
+      "readingTime": "13 min",
+      "tags": ["databricks", "delta-lake", "cdc", "certification"],
+      "excerpt": "Three mechanisms, two directions: read changes out of a Delta table with CDF, apply them in with a sequence-guarded MERGE, or declare them away with AUTO CDC and SCD Type 2.",
+      "file": "posts/09-cdc-change-data-feed-auto-cdc.md"
     }
   ]
 }
